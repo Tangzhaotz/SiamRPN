@@ -1,7 +1,7 @@
 
-# Siamese-RPN
+# SiamRPN
 
-This is a PyTorch implementation of SiameseRPN. This project is mainly based on 
+This is a PyTorch implementation of SiamRPN. This project is mainly based on 
 
 This repository includes testing and tracking codes. 
 
