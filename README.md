@@ -1,9 +1,7 @@
 
 # SiamRPN
 
-This is a PyTorch implementation of SiamRPN. This project is mainly based on  https://github.com/HelloRicky123/Siamese-RPN
-
-This repository includes testing and tracking codes. 
+Refer to the link  https://github.com/HelloRicky123/Siamese-RPN
 
 ## Data preparation:
 ```bash
