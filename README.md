@@ -17,7 +17,6 @@ python bin/create_lmdb.py
 ## Training
 ```bash
 python bin/train_siamrpn.py 
-## Testing
 ```
 ## Testing
 ```bash
@@ -28,7 +27,7 @@ python bin/test_siamrpn.py
 ```bash
 Pretrained model on Imagenet: https://drive.google.com/drive/folders/1HJOvl_irX3KFbtfj88_FVLtukMI1GTCR
 
-Model with 0.626 AUC: https://pan.baidu.com/s/1vSvTqxaFwgmZdS00U3YIzQ  keyword:v91k
+Model with 0.6xx AUC: https://pan.baidu.com/s/1vSvTqxaFwgmZdS00U3YIzQ  keyword:v91k
 ```
 ## Reference
 ```bash
