@@ -6,7 +6,7 @@
 - 添加got10k评估工具，可用于评估，评估结果略低于论文
 Refer to the link https://www.bilibili.com/video/BV1Y64y1T7qs 
 
-## Data preparation:
+## Data preparation
 ```bash
 First get VID dataset and youtube-bb dataset. 
 
