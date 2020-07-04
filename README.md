@@ -10,20 +10,18 @@ Refer to the link https://www.bilibili.com/video/BV1Y64y1T7qs
 ```bash
 First get VID dataset and youtube-bb dataset. 
 
-python bin/create_dataset_ytbid.py 
-
-The command above will get a dataset, The dataset in the baiduyundisk. Use this data to create lmdb.
+The dataset in the baiduyundisk. Use this data to create lmdb.
 链接:https://pan.baidu.com/s/1QnQEM_jtc3alX8RyZ3i4-g  密码:myq4
 
 python bin/create_lmdb.py
 ```
 ## Training
 ```bash
-python bin/train_siamrpn.py 
+python ./bin/train_siamrpn.py 
 ```
 ## Testing
 ```bash
-python bin/test_siamrpn.py 
+python ./bin/test_siamrpn.py 
 ```
 
 ## Model Download:
