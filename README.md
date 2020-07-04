@@ -1,10 +1,10 @@
 
-# 本项目的主要工作
-- 对SiamRPN的API接口进行优化，支持Vscode调试
-- 支持Vscode端的训练和测试
-- 添加部分注释
-- 添加got10k评估工具，可用于评估，评估结果略低于论文
-Refer to the link https://www.bilibili.com/video/BV1Y64y1T7qs 
+# Our Contribution
+- Support VSCode debug
+- Support train and test
+- Support 9 datasets evaluation
+
+https://www.bilibili.com/video/BV1Y64y1T7qs 
 
 ## Data preparation
 ```bash
