@@ -1,4 +1,4 @@
-# The implementation of SiamRPN
+# Pytorch implementation of SiamRPN
 ## Our contribution
 - Support VSCode debug
 - Support train and test
