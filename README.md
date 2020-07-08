@@ -13,7 +13,7 @@ First get VID dataset and youtube-bb dataset.
 The dataset in the baiduyundisk. Use this data to create lmdb.
 链接:https://pan.baidu.com/s/1QnQEM_jtc3alX8RyZ3i4-g  密码:myq4
 
-python bin/create_lmdb.py
+python bin/create_lmdb.py (Note that LMDB data format can speed up the data loading)
 ```
 ## Training
 ```bash
