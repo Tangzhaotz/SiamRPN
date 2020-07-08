@@ -1,12 +1,12 @@
 # Pytorch implementation of SiamRPN
-## Our contribution
+## Contribution
 - Support VSCode debug
 - Support train and test
 - Support 9 datasets evaluation
 
 https://www.bilibili.com/video/BV1Y64y1T7qs 
 
-## Data preparation
+## Preparation
 ```bash
 First get VID dataset and youtube-bb dataset. 
 
@@ -24,7 +24,7 @@ python ./bin/train_siamrpn.py
 python ./bin/test_siamrpn.py 
 ```
 
-## Model Download:
+## Model
 ```bash
 Pretrained model on Imagenet: https://drive.google.com/drive/folders/1HJOvl_irX3KFbtfj88_FVLtukMI1GTCR
 
