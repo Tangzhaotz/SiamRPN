@@ -1,27 +1,34 @@
 # Pytorch implementation of SiamRPN
-## Contribution
-- Support VSCode debug
-- Support train and test
-- Support 9 datasets evaluation
 
-https://www.bilibili.com/video/BV1Y64y1T7qs 
+## Description
+My code https://github.com/HonglinChu/SiamRPN
 
-## Preparation
+## File Tree
+```
+.
+├── bin
+├── got10k
+└── siamrpn
+```
+
+## Data preparation
 ```bash
 First get VID dataset and youtube-bb dataset. 
 
-The dataset in the baiduyundisk. Use this data to create lmdb.
-链接:https://pan.baidu.com/s/1QnQEM_jtc3alX8RyZ3i4-g  密码:myq4
+python bin/create_dataset_ytbid.py 
 
-python bin/create_lmdb.py (Note that LMDB data format can speed up the data loading)
+The command above will get a dataset, The dataset in the baiduyundisk. Use this data to create lmdb.
+link:https://pan.baidu.com/s/1QnQEM_jtc3alX8RyZ3i4-g  password:myq4
+
+python bin/create_lmdb.py
 ```
-## Training
+## Train
 ```bash
-python ./bin/train_siamrpn.py 
+python bin/train_siamrpn.py 
 ```
-## Testing
+## Test
 ```bash
-python ./bin/test_siamrpn.py 
+python bin/test_siamrpn.py 
 ```
 
 ## Model
@@ -35,4 +42,5 @@ Model with 0.6xx AUC: https://pan.baidu.com/s/1vSvTqxaFwgmZdS00U3YIzQ  keyword:v
 
 [1] Li B , Yan J , Wu W , et al. High Performance Visual Tracking with Siamese Region Proposal Network[C]// 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2018.
 [2] https://github.com/HelloRicky123/Siamese-RPN
+
 ```
